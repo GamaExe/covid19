@@ -1,0 +1,9 @@
+.titulo{
+    margin-top: 20px;
+}
+.descricao{
+    text-align: justify;
+    max-width: 700px;
+    margin: 0 auto;
+    padding-top: 30px;
+}

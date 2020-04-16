@@ -1,1 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
+/* RESET */
+h1,h2,h3,ul,li{
+    margin: 0;
+    padding: 0;
+    font-weight: initial;
+}
+
+body{
+    background-color: cadetblue;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container{
+    max-width: 1000px;
+    background-color: rgba(245, 245, 245, 0.7);
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.container .tituloDecorado{
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-family: 'Rye', 'Roboto Condensed', sans-serif;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    background-color: white;
+    font-size: 20px;
+}
+.navbar ul li{
+    list-style-type: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar ul li a:hover{
+    color: cornflowerblue;
+}
+
+.rodape{
+    background-color: white;
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 13px;
+    font-weight: bold;
+}
