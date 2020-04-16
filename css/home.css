@@ -2,6 +2,7 @@
 h1,h2,h3,ul,li{
     margin: 0;
     padding: 0;
+    font-weight: initial;
 }
 
 body{
@@ -9,10 +10,11 @@ body{
     text-align: center;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 .container{
     max-width: 1000px;
-    background-color: rgba(245, 245, 245, 0.52);
+    background-color: rgba(245, 245, 245, 0.7);
     margin: 0 auto;
     padding-top: 30px;
 }
@@ -21,6 +23,8 @@ body{
     justify-content: space-around;
     align-items: center;
     height: 40px;
+    background-color: white;
+    font-size: 20px;
 }
 .navbar ul li{
     list-style-type: none;
@@ -31,4 +35,18 @@ body{
 }
 .navbar ul li a:hover{
     color: cornflowerblue;
+}
+
+.artigo{
+    padding: 0px 100px;
+}
+
+.artigo div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.artigo div p{
+    text-align: justify;
+    max-width: 200px;
 }
