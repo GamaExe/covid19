@@ -22,6 +22,7 @@ body{
     margin: 0 auto;
     padding-top: 30px;
     padding-bottom: 50px;
+    min-height: 80vh;
 }
 .container .tituloDecorado{
     margin-bottom: 30px;
