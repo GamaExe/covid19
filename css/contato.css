@@ -1,0 +1,20 @@
+.secao-in{
+    /* display: flex; */
+    /* justify-content: center; */
+    margin: 10px;
+}
+.lab-text{
+    display: block;
+    margin-bottom: 5px;
+}
+.in-text{
+    min-width: 400px;
+    min-height: 100px;
+}
+.lab-mail{
+    display: block;
+    margin-bottom: 5px;
+}
+.in-mail{
+    min-width: 400px;
+}
