@@ -1,0 +1,15 @@
+
+.titulo{
+    font-size: 25px;
+    margin: 30px 0;
+}
+
+.lista{
+    max-width: 400px;
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+.lista li{
+    padding: 10px;
+}
